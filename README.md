@@ -4,14 +4,14 @@ Metamodelo neuronal informado por la física (PINN) que predice la respuesta sí
 
 ## Estructura
 
-| Carpeta | Capítulo | Contenido |
-|---|---|---|
-| `1_FAMILIA_B_Cap3/` | 3 | Definición de la familia paramétrica de edificios y análisis modal |
-| `2_DATASET_Cap4/` | 4 | Generación del dataset con OpenSeesPy y corrección normativa |
-| `3_METAMODELO_Cap5/` | 5 | Metamodelo PINN modal y optimización de hiperparámetros (Optuna) |
-| `4_VALIDACION_Cap6/` | 6 | Validación, ablación y verificación de cumplimiento (FP/FN) |
-| `5_PAPER/` | — | Paquete de replicación: modelo final, scalers, figuras y trazabilidad |
-| `6_INTERFAZ_DEMO/` | — | Interfaz de demostración y réplica del pipeline completo |
+| Carpeta | Contenido |
+|---|---|
+| `1_FAMILIA_B/` | Definición de la familia paramétrica de edificios y análisis modal |
+| `2_DATASET/` | Generación del dataset con OpenSeesPy y corrección normativa |
+| `3_METAMODELO/` | Metamodelo PINN modal y optimización de hiperparámetros (Optuna) |
+| `4_VALIDACION/` | Validación, ablación y verificación de cumplimiento (FP/FN) |
+| `5_PAPER/` | Paquete de replicación: modelo final, scalers, figuras y trazabilidad |
+| `6_INTERFAZ_DEMO/` | Interfaz de demostración y réplica del pipeline completo |
 
 ## Tecnologías
 

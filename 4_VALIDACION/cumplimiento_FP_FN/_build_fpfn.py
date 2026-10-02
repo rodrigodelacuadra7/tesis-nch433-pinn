@@ -46,8 +46,8 @@ import matplotlib.pyplot as plt
 # El modelo y los scalers viven junto a este notebook (carpeta artefactos_paper).
 # El dataset (147 MB) se referencia por ruta — ajusta si lo tienes en otro lugar.
 MODEL_PATH   = r'C:/Users/rodri/Documents/NB/5_PAPER/artefactos_paper/model_fase2_definitivo.pt'
-SCALERS_PATH = r'C:/Users/rodri/Documents/NB/3_METAMODELO_Cap5/modelo/scalers_trial16_DEFINITIVO.pkl'
-DATASET_PATH = r'C:/Users/rodri/Documents/NB/2_DATASET_Cap4/datasets_h5/dataset_familyB_OPENSEES_v6_DEFINITIVO.h5'
+SCALERS_PATH = r'C:/Users/rodri/Documents/NB/3_METAMODELO/modelo/scalers_trial16_DEFINITIVO.pkl'
+DATASET_PATH = r'C:/Users/rodri/Documents/NB/2_DATASET/datasets_h5/dataset_familyB_OPENSEES_v6_DEFINITIVO.h5'
 DRIFT_LIMIT  = 0.002            # limite NCh433 de deriva de entrepiso (centro de masa)
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 plt.rcParams.update({'figure.dpi': 120, 'axes.grid': True, 'grid.alpha': 0.25})

@@ -5,8 +5,8 @@ de banda marginal para la seccion 6.4 de la tesis."""
 import numpy as np, pickle, h5py, torch, torch.nn as nn, torch.nn.functional as F
 dev='cpu'; LIM=0.002
 MODEL=r"C:/Users/rodri/Documents/PINN/b2_proyecto/models/trials_31/V8/DEFINITIVO_CORREGIDO/model_fase2_definitivo.pt"
-SCAL =r"C:/Users/rodri/Documents/NB/3_METAMODELO_Cap5/modelo/scalers_trial16_DEFINITIVO.pkl"
-H5   ="C:/Users/rodri/Documents/NB/2_DATASET_Cap4/datasets_h5/dataset_familyB_OPENSEES_v6_DEFINITIVO.h5"
+SCAL =r"C:/Users/rodri/Documents/NB/3_METAMODELO/modelo/scalers_trial16_DEFINITIVO.pkl"
+H5   ="C:/Users/rodri/Documents/NB/2_DATASET/datasets_h5/dataset_familyB_OPENSEES_v6_DEFINITIVO.h5"
 
 class ResBlock(nn.Module):
     def __init__(s,d):
