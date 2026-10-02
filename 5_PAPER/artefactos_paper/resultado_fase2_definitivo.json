@@ -1,0 +1,40 @@
+{
+    "trial": 16,
+    "nombre": "zona_1_3_vs_zona_2",
+    "arquitectura": "PINNModal_v4b",
+    "loss": "compute_loss_v16",
+    "curriculum": "v20_staged_training",
+    "dataset": "v6 nuevo — B4-INF dividido por hall (20260523)",
+    "h5_usado": "dataset_familyB_OPENSEES_v6_DEFINITIVO.h5",
+    "n_train_fase2": 6623,
+    "n_test_fase2": 2977,
+    "ep_fase2": 600,
+    "best_epoch": 333,
+    "tiempo_min": 26.0,
+    "metricas_f2": {
+        "MAC_avg": 0.99787,
+        "MAC_Y1": 0.995875,
+        "MAC_T1": 0.998242,
+        "MAC_X1": 0.999493,
+        "T1_MAPE": 7.5068,
+        "Vb_MAPE": 11.4539,
+        "Vbx_MAPE": 12.9303,
+        "Vby_MAPE": 9.9775,
+        "drift_MAPE": 13.6392,
+        "n_casos_ood": 2977
+    },
+    "metricas_f1": {
+        "MAC_avg": 0.996702,
+        "T1_MAPE": 9.713325,
+        "Vb_MAPE": 9.950875,
+        "drift_MAPE": 13.33275
+    },
+    "referencias": [
+        "Wang et al. (2022) — gradient pathologies PINNs",
+        "Bengio et al. (2009) — Curriculum Learning",
+        "Howard & Ruder (2018) — ULMFiT",
+        "Loshchilov & Hutter (2017) — CosineAnnealingWarmRestarts",
+        "Raissi et al. (2019) — Journal Comp. Physics 378",
+        "NCh433 Mod.2012 + DS61"
+    ]
+}

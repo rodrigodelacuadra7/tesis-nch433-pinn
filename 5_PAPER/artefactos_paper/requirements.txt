@@ -1,0 +1,18 @@
+# Entorno de replicacion — Metamodelo PINN Familia B (NCh433)
+# Probado con Python 3.11-3.13. El modelo es CPU-friendly (no requiere GPU).
+#
+#   pip install -r requirements.txt
+#
+# Notas:
+#  - El modelo se entreno con torch 2.x; cualquier 2.x carga el state_dict.
+#  - openseespy SOLO se necesita para REGENERAR el dataset (ground truth),
+#    no para usar el modelo ni reproducir metricas. Por eso va comentado.
+
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.7
+h5py>=3.8
+torch>=2.1
+
+# Solo para regenerar el dataset desde OpenSees (opcional):
+# openseespy==3.7.1

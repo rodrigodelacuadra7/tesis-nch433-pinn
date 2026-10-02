@@ -1,0 +1,8 @@
+# Datasets (no se incluyen por tamaño)
+*.h5
+*.npz
+dataset_*.pkl
+__pycache__/
+.ipynb_checkpoints/
+5_PAPER/Paper_Structures_v2.tex
+Tesis_PINNs.pdf
